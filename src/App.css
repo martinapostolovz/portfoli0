@@ -1,28 +1,226 @@
-.darko {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 300px;
+body {
+    margin: 0;
+    position: 0;
+    overflow-x: hidden;
+    background-color: rgb(21, 22, 27);
 }
 
-p {
-    text-align: center;
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
+
+
+header {
+    display: flex;
+    z-index: 1;
+
 }
 
-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 130px;
-    height: 50px;
+.header-background {
+    display: flex;
+    position: fixed;
+    height: 66px;
+    width: 100%;
+    transform: translateY(-11px);
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.name {
+    display: flex;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
-    background: linear-gradient(to right, red, blue, purple);
-    border-radius: 25px;
-    border: none;
     color: white;
+}
+
+.name-header {
+    margin-left: 30px;
+}
+
+.header-button-no-mobile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+    transform: translateX(-50px);
+
+}
+
+
+#About-nomobile {
+    text-decoration: underline;
+    font-size: 22px;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(89, 0, 255, 0.151);
+    color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#About-nomobile:hover {
+    background-color: rgba(89, 0, 255, 0.767);
+}
+
+#Experience-nomobile {
+    font-size: 22px;
+    width: 144px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(89, 0, 255, 0.151);
+    color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Experience-nomobile:hover {
+    background-color: rgba(89, 0, 255, 0.767);
+}
+
+#Contact-nomobile {
+    font-size: 22px;
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(89, 0, 255, 0.151);
+    color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Contact-nomobile:hover {
+    background-color: rgba(89, 0, 255, 0.767);
+}
+
+.background {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: rgb(33, 33, 41);
+    width: 98%;
+    height: 1000px;
+    transform: translateY(67px);
+
+}
+
+@media (max-width: 900px) {
+    .header-button-no-mobile {
+        display: none;
+
+
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:100000px) {
+    .header-button-mobile {
+        display: none;
+
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:900px) {
+    .header-button-mobile {
+        display: block;
+        width: 130px;
+        height: 55px;
+        border-radius: 10px;
+        background-color: rgb(45, 45, 48);
+        transition: 0.4s;
+        transform: translateX(-20px);
+        margin-top: 5px;
+        margin-left: auto;
+        overflow: hidden;
+
+    }
+
+    .header-button-mobile:hover {
+        height: 220px;
+    }
+
+
+    .menu-logo {
+        display: block;
+        margin-left: 10px;
+        transform: translateY(13px);
+    }
+
+    .line {
+        width: 37px;
+        height: 5px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    #line {
+        margin-top: 4px;
+    }
+
+    #line2 {
+        margin-top: 4px;
+    }
+
+    #line3 {
+        margin-top: 4px;
+    }
+
+    .under-menu-logo-line {
+        transform: translateY(21px);
+        background: none;
+        border-color: black;
+    }
+
+    .buttons-menu-mobile {
+        transform: translateY(23px);
+    }
+
+    .about-button-mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 110px;
+        height: 35px;
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 16px;
+        border: none;
+        background-color: rgba(89, 0, 255, 0.87);
+        color: white;
+
+
+    }
+
+    .experience-button-mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 110px;
+        height: 35px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 16px;
+        border: none;
+        background-color: rgba(89, 0, 255, 0.87);
+        color: white;
+    }
+
+    .contact-button-mobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 110px;
+        height: 35px;
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 16px;
+        border: none;
+        background-color: rgba(89, 0, 255, 0.87);
+        color: white;
+    }
+
+    #under-linei {
+        transform: translateY(-0px);
+    }
 }
