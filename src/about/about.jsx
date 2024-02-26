@@ -8,6 +8,7 @@ ReactDOM.render(
     <div className="k">
       <p>ijij</p>
       <p>ijijij</p>
+      <p>kook</p>
     </div>
   </React.StrictMode>,
   document.getElementById('root')
