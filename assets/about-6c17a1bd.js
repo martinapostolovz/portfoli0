@@ -1,1 +1,0 @@
-import{c as o,j as t,R as c,b as e}from"./index-af962549.js";o.render(t(c.StrictMode,{children:[e("h1",{children:"about"}),e("h1",{children:"poipoi"}),e("h1",{children:"ioi"})]}),document.getElementById("root"));
