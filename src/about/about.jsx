@@ -5,11 +5,10 @@ import './about.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>about</h1>
-    <h1>poipoi</h1>
-    <h1>popooooopoopooooooooo</h1>
-    <h1>popooooopoopooooooooo</h1>
-    <h1>popooooopoopooooooooo</h1>
+    <div className="k">
+      <p>ijij</p>
+      <p>ijijij</p>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 )
