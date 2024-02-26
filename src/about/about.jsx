@@ -8,6 +8,8 @@ ReactDOM.render(
     <h1>about</h1>
     <h1>poipoi</h1>
     <h1>popooooopoopooooooooo</h1>
+    <h1>popooooopoopooooooooo</h1>
+    <h1>popooooopoopooooooooo</h1>
   </React.StrictMode>,
   document.getElementById('root')
 )
