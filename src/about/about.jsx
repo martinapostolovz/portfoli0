@@ -5,9 +5,7 @@ import './about.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="k">
-      <p>ok</p>
-    </div>
+    <p>Da</p>
   </React.StrictMode>,
   document.getElementById('root')
 )
