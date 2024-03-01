@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className='header-background'>
         <div className='name-header'>
-          <p className='name'>Martin Apostolov</p>
+          <p className='name'>ApostolovZZ</p>
         </div>
         <div className='header-button-no-mobile'>
           <button id='About-nomobile'>About</button>
