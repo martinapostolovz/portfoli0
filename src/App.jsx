@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import reactLogo from './assets/react.svg'
 import './App.css'
 
+
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -34,7 +34,7 @@ function App() {
         </div>
       </header>
       <div className='background'>
-        <img src="images/apostolovzz.jpg" width={'400px'} alt="" />
+        <img src="../images/apostolovzz.jpg" width={'400px'} alt="" />
       </div>
     </div>
   )
