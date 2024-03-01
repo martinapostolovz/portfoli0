@@ -186,7 +186,7 @@ header {
         margin-right: auto;
         width: 110px;
         height: 35px;
-        font-size: 18px;
+        font-size: 17px;
         font-family: Arial, Helvetica, sans-serif;
         border-radius: 16px;
         border: none;
@@ -203,7 +203,7 @@ header {
         margin-right: auto;
         width: 110px;
         height: 35px;
-        font-size: 17px;
+        font-size: 16px;
         font-family: Arial, Helvetica, sans-serif;
         border-radius: 16px;
         border: none;
@@ -218,7 +218,7 @@ header {
         margin-right: auto;
         width: 110px;
         height: 35px;
-        font-size: 18px;
+        font-size: 17px;
         font-family: Arial, Helvetica, sans-serif;
         border-radius: 16px;
         border: none;
@@ -230,4 +230,35 @@ header {
     #under-linei {
         transform: translateY(-0px);
     }
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(27, 26, 26);
+    width: 6px;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 0, 0, 0.781);
+    border-radius: 10px;
+}
+
+.pic-name-worktext {
+    display: flex;
+    width: 700px;
+    height: 800px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(13px);
+
+}
+
+.image-of-me {
+    width: 230px;
+    height: 230px;
+    transform: translateY(30px);
+    border-radius: 50%;
+
 }
