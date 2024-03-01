@@ -255,10 +255,11 @@ header {
 
 }
 
-.image-of-me {
-    width: 230px;
-    height: 230px;
-    transform: translateY(30px);
+.picture-of-me {
+    background-image: url(images/apostolovzz.png);
+    width: 200px;
+    height: 200px;
+    background-position: center;
     border-radius: 50%;
 
 }
