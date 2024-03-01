@@ -36,7 +36,7 @@ function App() {
       <div className='background'>
         <main>
           <div className='pic-name-worktext'>
-            <img className='image-of-me' src="/images/Apostolovzz.jpg" alt="" />
+            <img className='image-of-me' src="./images/Apostolovzz.jpg" alt="" />
           </div>
         </main>
       </div>
