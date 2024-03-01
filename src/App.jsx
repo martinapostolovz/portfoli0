@@ -34,7 +34,7 @@ function App() {
         </div>
       </header>
       <div className='background'>
-        
+        <img src="/images/apostolovzz.jpg" alt="" />
       </div>
     </div>
   )
