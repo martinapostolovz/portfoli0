@@ -13,7 +13,7 @@ ReactDOM.render(
           <p className='name'>ApostolovZZ</p>
         </div>
         <div className='header-button-no-mobile'>
-          <a href='/https://martinapostolovz.github.io/portfoli0/'><button id='About-nomobile'>About</button></a>
+          <a href='/portfoli0/'><button id='About-nomobile'>About</button></a>
           <a href='/portfoli0/contact/'><button id='Contact-nomobile'>Contact</button></a>
         </div>
         <div className='header-button-mobile'>
@@ -24,7 +24,7 @@ ReactDOM.render(
           </div>
           <br />
           <div className='buttons-menu-mobile'>
-            <a href='/https://martinapostolovz.github.io/portfoli0/'><button className='about-button-mobile'>About</button></a>
+            <a href='/portfoli0/'><button className='about-button-mobile'>About</button></a>
             <hr id='under-linei' className='under-menu-logo-line' />
             <a href='/portfoli0/contact/'><button className='contact-button-mobile'>Contact</button></a>
           </div>
