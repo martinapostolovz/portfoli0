@@ -39,7 +39,7 @@ function App() {
             <div className='picture-of-me'></div>
             <div className='name-work'>
               <p className='name-surname'>Martin Apostolov</p>
-              <p className='what-i-work'>Front-End Developer</p>
+              <p className='what-i-work'>Front-End <p className='developer-tx'>Developer</p></p>
             </div>
           </div>
           <div className='blocks-about-me'>
@@ -51,7 +51,7 @@ function App() {
             </div>
             <div className='the-second-block'>
               <p className='what-i-konw-tx'>What i know to work:</p>
-              <p className='what-know-big-tx'>I am proficient in HTML, CSS, and JavaScript, and can create a quality website that ranks well on Google.</p>
+              <p className='what-know-big-tx'>I am a super passionate in HTML, CSS, and JavaScript, and can create a quality website that ranks well on Google.</p>
             </div>
             <div className='about-me-block'>
               <div className='age'>
@@ -72,6 +72,11 @@ function App() {
           <br />
         </div>
       </main>
+      <footer>
+        <div className='footer'>
+          <p>© 2024. All rights reserved</p>
+        </div>
+      </footer>
     </div>
   )
 }

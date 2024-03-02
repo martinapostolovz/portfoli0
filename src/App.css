@@ -285,6 +285,7 @@ header {
 }
 
 .what-i-work {
+    display: flex;
     font-size: 24px;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
@@ -429,4 +430,26 @@ header {
 
 #residence-macedonia {
     margin-left: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family: poppins, sans-serif;
+    height: 60px;
+    background-color: rgb(46, 46, 51);
+    z-index: 1;
+    margin-top: 70px;
+    color: white;
+
+
+
+}
+
+.developer-tx {
+    color: red;
+    margin-left: 8px;
+    transform: translateY(-23px);
 }
