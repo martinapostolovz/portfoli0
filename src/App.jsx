@@ -33,9 +33,45 @@ function App() {
           </div>
         </div>
       </header>
-      <div className='background'>
-        <div className='picture-of-me'></div>
-      </div>
+      <main>
+        <div className='background'>
+          <div className='picture-name-work'>
+            <div className='picture-of-me'></div>
+            <div className='name-work'>
+              <p className='name-surname'>Martin Apostolov</p>
+              <p className='what-i-work'>Front-End Developer</p>
+            </div>
+          </div>
+          <div className='blocks-about-me'>
+            <div className='first-block'>
+              <div>
+                <p className='how-start-tx'>How it started:</p>
+                <p className='big-text-how-i-start'>I was on a call with a friend who sent me a link to view a webpage. I opened the link and became interested in creating webpages myself. My friend showed me how to use HTML for creating webpages. Later on, I learned CSS so that I could design full webpages with better layout.</p>
+              </div>
+            </div>
+            <div className='the-second-block'>
+              <p className='what-i-konw-tx'>What i know to work:</p>
+              <p className='what-know-big-tx'>I am proficient in HTML, CSS, and JavaScript, and can create a quality website that ranks well on Google.</p>
+            </div>
+            <div className='about-me-block'>
+              <div className='age'>
+                <p>Age:</p>
+                <p id='age-num'>15</p>
+              </div>
+              <div className='city'>
+                <p>City:</p>
+                <p id='city-kavadarci'>Kavadarci</p>
+              </div>
+              <div className='residence'>
+                <p>Residence:</p>
+                <p id='residence-macedonia'>Macedonia</p>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+        </div>
+      </main>
     </div>
   )
 }

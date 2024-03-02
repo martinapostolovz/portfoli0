@@ -18,8 +18,8 @@ header {
     position: fixed;
     height: 66px;
     width: 100%;
-    transform: translateY(-11px);
-    background-color: rgba(0, 0, 0, 0.699);
+    transform: translateY(-20px);
+    background-color: rgba(0, 0, 0, 0.945);
 }
 
 .name {
@@ -102,7 +102,7 @@ header {
     margin-top: 10px;
     background-color: rgb(39, 39, 43);
     width: 97%;
-    height: 1000px;
+    height: auto;
     transform: translateY(70px);
 
 
@@ -244,22 +244,189 @@ header {
     border-radius: 10px;
 }
 
-.pic-name-worktext {
-    display: flex;
-    width: 700px;
-    height: 800px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translateY(13px);
 
-}
 
 .picture-of-me {
     background-image: url(images/apostolovzz.png);
+    background-repeat: no-repeat;
     width: 200px;
     height: 200px;
     background-position: center;
     border-radius: 50%;
+    transform: translateY(20px);
+    box-shadow: 8px 8px 25px 0.1px;
 
+
+}
+
+.picture-name-work {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(46, 46, 51);
+    height: 244px;
+    transform: translateY(35px);
+    margin: 20px;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.name-work {
+    transform: translateY(33px);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.name-surname {
+    font-size: 35px;
+    text-align: left;
+    transform: translateY(15px);
+}
+
+.what-i-work {
+    font-size: 24px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(156, 156, 156);
+    transform: translateY(-10px);
+    margin-left: 5px;
+}
+
+@media (max-width: 538px) {
+    .picture-name-work {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: rgb(46, 46, 51);
+        height: 400px;
+        transform: translateY(35px);
+        margin: 20px;
+        gap: 30px;
+        overflow: hidden;
+    }
+
+    .name-work {
+        transform: translateY(-23px);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+
+    }
+
+    .name-surname {
+        font-size: 35px;
+        text-align: center;
+        transform: translateY(15px);
+    }
+
+    .what-i-work {
+        font-size: 24px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(156, 156, 156);
+        transform: translateY(-10px);
+        margin-left: 5px;
+    }
+
+}
+
+.blocks-about-me {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(46, 46, 51);
+    margin: 20px;
+    transform: translateY(27px);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.first-block {
+    margin: 23px;
+    width: 280px;
+    height: auto;
+    background-color: rgb(31, 31, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.how-start-tx {
+    margin: 23px;
+    font-size: 25px;
+}
+
+.big-text-how-i-start {
+    margin: 23px;
+    font-size: 19px;
+}
+
+
+.the-second-block {
+    margin: 23px;
+    width: 280px;
+    height: auto;
+    background-color: rgb(31, 31, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.what-i-konw-tx {
+    margin: 23px;
+    font-size: 30px;
+}
+
+.what-know-big-tx {
+    margin: 23px;
+    font-size: 27px;
+}
+
+.about-me-block {
+    margin: 23px;
+    width: 280px;
+    height: auto;
+    background-color: rgb(31, 31, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.age {
+    margin: 27px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-top: 47px;
+}
+
+.city {
+    margin: 27px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-top: 47px;
+
+}
+
+.residence {
+    margin: 27px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-top: 47px;
+}
+
+
+#age-num {
+    margin-left: auto;
+}
+
+#city-kavadarci {
+    margin-left: auto;
+}
+
+#residence-macedonia {
+    margin-left: auto;
 }
