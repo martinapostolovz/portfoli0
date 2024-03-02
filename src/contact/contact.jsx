@@ -40,7 +40,7 @@ ReactDOM.render(
           </div>
           <div className="sec-bacground">
             <div className="conract-background">
-              <img src="/images/icons8-github-48.png" alt="" />
+              <img src="./images/icons8-github-48.png" alt="" />
             </div>
 
 
