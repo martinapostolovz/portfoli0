@@ -33,7 +33,7 @@ function App() {
       <main>
         <div className='background'>
           <div className='picture-name-work'>
-            <div id='pic-of-me' className='picture-of-me'></div>
+          <img id='pic-of-me' className='picture-of-me' src="../images/apostolovzz.jpg" alt="" />
             <div className='name-work'>
               <p className='name-surname'>Martin Apostolov</p>
               <p className='what-i-work'>Front-End <p className='developer-tx'>Developer</p></p>
