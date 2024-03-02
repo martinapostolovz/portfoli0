@@ -332,3 +332,8 @@ header {
 
 }
 
+.github {
+    width: 100px;
+    height: 100px;
+    background-image: url(./images/icons8-github-48.png/);
+}

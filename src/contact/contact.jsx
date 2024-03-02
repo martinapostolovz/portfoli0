@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import './contact.css';
 
 
+
+
 ReactDOM.render(
   <React.StrictMode>
     <div className="App">
@@ -40,7 +42,7 @@ ReactDOM.render(
           </div>
           <div className="sec-bacground">
             <div className="conract-background">
-              <img src="./images/icons8-github-48.png" alt="" />
+              <img src="/images/icons8-github-48.png" alt="" />
             </div>
 
 
