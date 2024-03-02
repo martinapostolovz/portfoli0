@@ -13,8 +13,8 @@ function App() {
           <p className='name'>ApostolovZZ</p>
         </div>
         <div className='header-button-no-mobile'>
-          <a href='/portfoli0/experience/'><button id='About-nomobile'>About</button></a>
-          <button id='Contact-nomobile'>Contact</button>
+          <a href='/portfoli0/main/'><button id='About-nomobile'>About</button></a>
+          <a href='/portfoli0/contact/'><button id='Contact-nomobile'>Contact</button></a>
         </div>
         <div className='header-button-mobile'>
           <div className='menu-logo'>
@@ -24,16 +24,16 @@ function App() {
           </div>
           <br />
           <div className='buttons-menu-mobile'>
-            <button className='about-button-mobile'>About</button>
+            <a href='/portfoli0/main/'><button className='about-button-mobile'>About</button></a>
             <hr id='under-linei' className='under-menu-logo-line' />
-            <button className='contact-button-mobile'>Contact</button>
+            <a href='/portfoli0/contact/'><button className='contact-button-mobile'>Contact</button></a>
           </div>
         </div>
       </header>
       <main>
         <div className='background'>
           <div className='picture-name-work'>
-          <img id='pic-of-me' className='picture-of-me' src="../images/apostolovzz.jpg" alt="" />
+            <div id='pic-of-me' className='picture-of-me'></div>
             <div className='name-work'>
               <p className='name-surname'>Martin Apostolov</p>
               <p className='what-i-work'>Front-End <p className='developer-tx'>Developer</p></p>
@@ -48,15 +48,15 @@ function App() {
             </div>
             <div className='the-second-block'>
               <p className='what-i-konw-tx'>What i know to work:</p>
-              <p className='what-know-big-tx'>I am a super passionate in HTML, CSS, and JavaScript, and can create a quality website that ranks well on Google.</p>
+              <p className='what-know-big-tx'>I am a super passionate in HTML,CSS,REACT,<br />JavaScript and can create a quality website that ranks well on Google.</p>
             </div>
             <div className='the-third-block'>
               <p className='exp-tx'>Experience:</p>
               <div className='blcoks-exp'>
                 <div className='blocks-experience-logo'>
-                  <p className="html">Html</p>
-                  <p className="css">Css</p>
-                  <p className="react">React JS</p>
+                  <p className="html">HTML</p>
+                  <p className="css">CSS</p>
+                  <p className="react">REACT</p>
                   <p className="javascript">JS</p>
                 </div>
               </div>

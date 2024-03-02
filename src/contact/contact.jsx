@@ -13,8 +13,8 @@ ReactDOM.render(
           <p className='name'>ApostolovZZ</p>
         </div>
         <div className='header-button-no-mobile'>
-          <a href='/portfoli0/experience/'><button id='About-nomobile'>About</button></a>
-          <button id='Contact-nomobile'>Contact</button>
+          <a href='/portfoli0/main/'><button id='About-nomobile'>About</button></a>
+          <a href='/portfoli0/contact/'><button id='Contact-nomobile'>Contact</button></a>
         </div>
         <div className='header-button-mobile'>
           <div className='menu-logo'>
@@ -24,9 +24,9 @@ ReactDOM.render(
           </div>
           <br />
           <div className='buttons-menu-mobile'>
-            <button className='about-button-mobile'>About</button>
+            <a href='/portfoli0/main/'><button className='about-button-mobile'>About</button></a>
             <hr id='under-linei' className='under-menu-logo-line' />
-            <button className='contact-button-mobile'>Contact</button>
+            <a href='/portfoli0/contact/'><button className='contact-button-mobile'>Contact</button></a>
           </div>
         </div>
       </header>
@@ -42,7 +42,9 @@ ReactDOM.render(
           </div>
           <div className="sec-bacground">
             <div className="conract-background">
-              <img src="../images/githubimg.png" alt="" />
+              <a href="https://www.facebook.com/martin.apostolov.92372"><img className="facebook" src="../images/facebook.png" alt="" /></a>
+              <a href="https://www.instagram.com/apostolovzz/"><img className="instagram" src="../images/instagram.png" alt="" /></a>
+              <a href="https://github.com/martinapostolovz"><img className="github-img" src="../images/githubimg.png" alt="" /></a>
             </div>
 
 
