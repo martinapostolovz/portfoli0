@@ -13,7 +13,7 @@ function App() {
           <p className='name'>ApostolovZZ</p>
         </div>
         <div className='header-button-no-mobile'>
-          <a href='/portfoli0/main/'><button id='About-nomobile'>About</button></a>
+          <button id='About-nomobile'>About</button>
           <a href='/portfoli0/contact/'><button id='Contact-nomobile'>Contact</button></a>
         </div>
         <div className='header-button-mobile'>
@@ -24,7 +24,7 @@ function App() {
           </div>
           <br />
           <div className='buttons-menu-mobile'>
-            <a href='/portfoli0/main/'><button className='about-button-mobile'>About</button></a>
+            <button className='about-button-mobile'>About</button>
             <hr id='under-linei' className='under-menu-logo-line' />
             <a href='/portfoli0/contact/'><button className='contact-button-mobile'>Contact</button></a>
           </div>
