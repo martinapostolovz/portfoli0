@@ -44,13 +44,12 @@ ReactDOM.render(
                       <p className="porfolio-tx">Porfolio</p>
                       <br />
                       <div className="link-of-project">
-                        <a href="https://martinapostolovz.github.io/portfoli0/"><button className="link-button">https://martinapostolovz.github.io/portfoli0/</button></a>
+                        <a href="https://martinapostolovz.github.io/portfoli0/"><button className="link-button">PORTFOLIO</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
