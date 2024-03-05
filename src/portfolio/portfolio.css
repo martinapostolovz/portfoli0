@@ -35,6 +35,20 @@ header {
     z-index: 1;
 }
 
+#portfolio-nomobile {
+    font-size: 22px;
+    width: 136px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.151);
+    color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
 .name-header {
     margin-left: 30px;
 }
@@ -94,7 +108,7 @@ header {
     color: white;
     transition: 0.3s;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
+
 }
 
 #Contact-nomobile:hover {
@@ -188,24 +202,6 @@ header {
         transform: translateY(23px);
     }
 
-    #portfolio-mobile {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 18px;
-        width: 110px;
-        height: 35px;
-        border-radius: 20px;
-        border: none;
-        cursor: pointer;
-        background-color: rgba(255, 0, 0, 0.705);
-        color: white;
-        text-align: center;
-        transition: 0.3s;
-        font-family: Arial, Helvetica, sans-serif;
-
-    }
-
     .about-button-mobile {
         display: block;
         margin-left: auto;
@@ -221,6 +217,25 @@ header {
         text-align: center;
 
 
+    }
+
+
+    #portfolio-nomobile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        width: 110px;
+        height: 35px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        background-color: rgba(255, 0, 0, 0.705);
+        color: white;
+        text-align: center;
+        transition: 0.3s;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
     }
 
     .experience-button-mobile {
@@ -252,7 +267,7 @@ header {
         background-color: rgba(255, 0, 0, 0.705);
         color: white;
         text-align: center;
-        text-decoration: underline;
+
     }
 
     #under-linei {
@@ -272,10 +287,10 @@ header {
     border-radius: 10px;
 }
 
-.backgrounds {
+.background {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     margin: 20px;
     flex-wrap: wrap;
     width: auto;
@@ -284,145 +299,78 @@ header {
     transform: translateY(70px);
 }
 
-#portfolio-nomobile {
-    font-size: 22px;
-    width: 136px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    background-color: rgba(255, 0, 0, 0.151);
-    color: white;
-    transition: 0.3s;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.first-background {
-    width: 400px;
-    height: 400px;
-    background-color: rgb(48, 48, 53);
+.project {
+    display: flex;
+    justify-content: center;
+    width: 415px;
+    height: 320px;
+    background-color: rgb(19, 18, 18);
+    transform: translateY(20px);
     overflow: hidden;
 }
 
-.profile-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transform: translateY(30px);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: url(/images/apostolovzz.jpg);
+.project-background {
+    margin: 5px;
+    width: 395px;
+    height: 285px;
+    background-color: rgb(34, 34, 36);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    background-image: url(/images/portfolio-project.png);
 }
 
-.profle-name {
-    text-align: center;
-    font-size: 24px;
-    transform: translateY(25px);
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-.social-name {
-    text-align: center;
-    font-size: 22px;
-    transform: translateY(18px);
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(134, 134, 134);
-}
-
-.first-under-bacground {
-    width: 100%;
-    height: 50px;
-    background-color: rgb(70, 70, 75);
-    transform: translateY(25px);
-
+.swipe-up-background-transparent {
+    width: 405px;
+    height: 285px;
+    background-color: rgba(127, 255, 212, 0);
 
 }
 
-.sec-bacground {
-    margin: px;
-    width: 400px;
-    height: 400px;
-    background-color: rgb(48, 48, 53);
+.see-more-background-project {
+    width: 395px;
+    height: 285px;
+    background-color: rgba(0, 0, 0, 0.911);
+    transform: translateY(270px);
+}
+
+.swipe-animation {
+    transition: 0.9s;
+    height: auto;
 
 }
 
-
-.email {
-    display: block;
-    text-align: center;
-    transform: translateY(15px);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: white;
-
+.swipe-animation:hover {
+    transform: translateY(-150px);
 }
 
-.conract-background {
+.porfolio-tx {
     display: flex;
     justify-content: center;
-    align-items: center;
-    transform: translateY(155px);
-    height: 70px;
-    width: 100%;
-    background-color: rgb(70, 70, 75);
-    gap: 20px;
+    color: white;
+    transform: translateY(14px);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-of-project {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: transparent;
 
 
 }
 
-.github-img {
-    width: 63px;
-    height: 63px;
+.link-button {
+    display: flex;
+    background-color: transparent;
+    color: white;
+    border: none;
     cursor: pointer;
-    transition: 0.2s;
-}
-
-.github-img:hover {
-    width: 68px;
-    height: 68px;
-}
-
-
-.instagram {
-    width: 65px;
-    height: 65px;
-    cursor: pointer;
-    transition: 0.2s;
-
-}
-
-.instagram:hover {
-    width: 70px;
-    height: 70px;
-}
-
-.facebook {
-    width: 66px;
-    height: 66px;
-    cursor: pointer;
-    transition: 0.2s;
-
-}
-
-.facebook:hover {
-    width: 71px;
-    height: 71px;
-}
-
-
-@media (max-width: 900px) {
-    .backgrounds {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        flex-wrap: wrap;
-        width: auto;
-        height: 800px;
-        background-color: rgb(39, 39, 43);
-        transform: translateY(70px);
-    }
-
+    transform: translateY(17px);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }

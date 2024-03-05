@@ -14,6 +14,7 @@ function App() {
         </div>
         <div className='header-button-no-mobile'>
           <button id='About-nomobile'>About</button>
+          <a href='/portfoli0/portfolio/'><button id='portfolio-nomobile'>Portfolio</button></a>
           <a href='/portfoli0/contact/'><button id='Contact-nomobile'>Contact</button></a>
         </div>
         <div className='header-button-mobile'>
@@ -25,6 +26,8 @@ function App() {
           <br />
           <div className='buttons-menu-mobile'>
             <button className='about-button-mobile'>About</button>
+            <hr id='under-linei' className='under-menu-logo-line' />
+            <a href='/portfoli0/portfolio/'><button id='portfolio-mobile'>Portfolio</button></a>
             <hr id='under-linei' className='under-menu-logo-line' />
             <a href='/portfoli0/contact/'><button className='contact-button-mobile'>Contact</button></a>
           </div>

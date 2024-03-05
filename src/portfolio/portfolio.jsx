@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './contact.css';
+import './portfolio.css';
 
 
 
@@ -34,23 +34,24 @@ ReactDOM.render(
         </div>
       </header>
       <main>
-        <div className="backgrounds">
-          <div className="first-background">
-            <div className="profile-pic"></div>
-            <p className="profle-name">Martin Apostolov</p>
-            <p className="social-name">ApostolovZZ</p>
-            <div className="first-under-bacground">
-              <p className="email">Email:martinapostolov56@gmail.com</p>
-            </div>
-          </div>
-          <div className="sec-bacground">
-            <div className="conract-background">
-              <a href="https://www.facebook.com/martin.apostolov.92372"><img className="facebook" src="../images/facebook.png" alt="" /></a>
-              <a href="https://www.instagram.com/apostolovzz/"><img className="instagram" src="../images/instagram.png" alt="" /></a>
-              <a href="https://github.com/martinapostolovz"><img className="github-img" src="../images/githubimg.png" alt="" /></a>
-            </div>
+        <div className="background">
+          <div className="project">
+            <div className="project-background">
+              <div className="swipe-animation">
+                <div className="swipe-up-background-transparent">
+                  <div className="see-more-background-project">
+                    <div className="on-animation-background">
+                      <p className="porfolio-tx">Porfolio</p>
+                      <br />
+                      <div className="link-of-project">
+                        <a href="https://martinapostolovz.github.io/portfoli0/"><button className="link-button">https://martinapostolovz.github.io/portfoli0/</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-
+            </div>
           </div>
         </div>
       </main>
