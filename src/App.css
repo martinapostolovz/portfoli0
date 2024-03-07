@@ -406,7 +406,7 @@ header {
 
 .big-text-how-i-start {
     margin: 23px;
-    font-size: 20px;
+    font-size: 19.3px;
 }
 
 
@@ -422,12 +422,12 @@ header {
 
 .what-i-konw-tx {
     margin: 23px;
-    font-size: 30px;
+    font-size: 33px;
 }
 
 .what-know-big-tx {
     margin: 23px;
-    font-size: 27px;
+    font-size: 29.4px;
 }
 
 .about-me-block {
@@ -435,6 +435,7 @@ header {
     width: 280px;
     height: auto;
     background-color: rgb(31, 31, 34);
+
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -569,3 +570,4 @@ header {
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+

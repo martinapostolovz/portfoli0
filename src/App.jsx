@@ -46,12 +46,12 @@ function App() {
             <div className='first-block'>
               <div>
                 <p className='how-start-tx'>How it started:</p>
-                <p className='big-text-how-i-start'>I was on a call with a friend who sent me a link to view a webpage. I opened the link and became interested in creating webpages myself. My friend showed me how to use HTML for creating webpages. Later on, I learned CSS so that I could design full webpages with better layout.</p>
+                <p className='big-text-how-i-start'>During a conversation with an acquaintance, I was directed to a webpage via a hyperlink. Upon accessing the link, I developed an interest in delving into the creation of web content. Subsequently, my acquaintance provided guidance on the utilization of HTML for webpage development. Over time, I expanded my skill set to include CSS, enhancing my ability to craft comprehensive web designs with improved layout aesthetics.</p>
               </div>
             </div>
             <div className='the-second-block'>
               <p className='what-i-konw-tx'>What i know to work:</p>
-              <p className='what-know-big-tx'>I am a super passionate in HTML,CSS,REACT,<br />JavaScript and can create a quality website that ranks well on Google.</p>
+              <p className='what-know-big-tx'>I possess a strong passion for HTML, CSS, React, and JS, enabling me to proficiently craft high-quality websites that excel in Google rankings.</p>
             </div>
             <div className='the-third-block'>
               <p className='exp-tx'>Experience:</p>
